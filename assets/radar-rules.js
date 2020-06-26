@@ -620,7 +620,7 @@
             {
                 title: '每周免费游戏',
                 docs: 'https://docs.rsshub.app/game.html#epicgames-freegame',
-                source: '/store/zh-CN/free-games',
+                source: '/store/ja-JP/free-games',
                 target: '/epicgames/freegames',
             },
         ],

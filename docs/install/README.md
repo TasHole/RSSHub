@@ -198,7 +198,7 @@ $ git pull
 
 [Before you begin](https://cloud.google.com/appengine/docs/flexible/nodejs/quickstart)
 
-按照这里的引导完成 GCP 账号设置，创建 GCP 项目，创建 App Engine 项目，开通付费功能（必须），安装 git 与 gcloud 工具。并完成 gcloud 工具的初始化，初始化具体方式 [请查看这个链接](https://cloud.google.com/sdk/gcloud/?hl=zh-CN)。如果你不打算在本地调试本项目，可以不安装 Node.js 环境。
+按照这里的引导完成 GCP 账号设置，创建 GCP 项目，创建 App Engine 项目，开通付费功能（必须），安装 git 与 gcloud 工具。并完成 gcloud 工具的初始化，初始化具体方式 [请查看这个链接](https://cloud.google.com/sdk/gcloud/?hl=ja-JP)。如果你不打算在本地调试本项目，可以不安装 Node.js 环境。
 
 请注意，GAE 免费用量不支持 Flexible Environment，部署到 Flexible Environment 前请确认收费标准。
 

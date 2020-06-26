@@ -24,7 +24,7 @@ pageClass: routes
 
 ### Update
 
-<RouteEn author="xyqfer" example="/google/doodles/zh-CN" path="/google/doodles/:language?" :paramsDesc="['Language, default to `zh-CN`, for other language values, you can get it from [Google Doodles official website](https://www.google.com/doodles)']" />
+<RouteEn author="xyqfer" example="/google/doodles/ja-JP" path="/google/doodles/:language?" :paramsDesc="['Language, default to `ja-JP`, for other language values, you can get it from [Google Doodles official website](https://www.google.com/doodles)']" />
 
 ## Google Photos
 

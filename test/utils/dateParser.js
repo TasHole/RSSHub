@@ -8,10 +8,10 @@ describe('dateParser', () => {
     MockDate.set('2019-01-01');
     const now = new Date();
     const serverOffset = now.getTimezoneOffset() / 60;
-    require('dayjs/locale/zh-cn');
+    require('dayjs/locale/ja');
     require('dayjs/locale/zh-hk');
 
-    // ['en', 'zh-cn', 'zh-hant'].forEach((lang0) => {
+    // ['en', 'ja-JP', 'zh-hant'].forEach((lang0) => {
     //     const lang = dateParser.i8nconv(lang0);
     //     dayjs.locale(lang);
 
@@ -35,8 +35,8 @@ describe('dateParser', () => {
         expect(dateParser(dayjs.utc(now.toUTCString()).locale('en').format('dddd, DD MMMM YYYY HH:mm:ss'), 'DD MMMM YYYY HH:mm:ss')).toBe(now.toUTCString());
     });
 
-    test(`zh-cn UTCString with week`, () => {
-        expect(dateParser(dayjs.utc(now.toUTCString()).locale('zh-cn').format('dddd, DD MMMM YYYY HH:mm:ss'), 'DD MMMM YYYY HH:mm:ss', 'zh-cn')).toBe(now.toUTCString());
+    test(`ja-JP UTCString with week`, () => {
+        expect(dateParser(dayjs.utc(now.toUTCString()).locale('ja-JP').format('dddd, DD MMMM YYYY HH:mm:ss'), 'DD MMMM YYYY HH:mm:ss', 'ja-JP')).toBe(now.toUTCString());
     });
 
     test(`zh-hant UTCString with week`, () => {

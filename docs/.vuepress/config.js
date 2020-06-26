@@ -23,7 +23,7 @@ module.exports = {
     },
     locales: {
         '/': {
-            lang: 'zh-CN',
+            lang: 'ja-JP',
             title: 'RSSHub',
             description: '🍰 万物皆可 RSS',
         },
@@ -81,7 +81,7 @@ module.exports = {
         },
         locales: {
             '/': {
-                lang: 'zh-CN',
+                lang: 'ja-JP',
                 selectText: 'Languages',
                 label: '简体中文',
                 editLinkText: '在 GitHub 上编辑此页',

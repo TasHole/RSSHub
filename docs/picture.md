@@ -48,7 +48,7 @@ pageClass: routes
 
 ### 更新
 
-<Route author="xyqfer" example="/google/doodles/zh-CN" path="/google/doodles/:language?" :paramsDesc="['语言，默认为`zh-CN`简体中文，如需其他语言值可从[Google Doodles 官网](https://www.google.com/doodles)获取']" />
+<Route author="xyqfer" example="/google/doodles/ja-JP" path="/google/doodles/:language?" :paramsDesc="['语言，默认为`ja-JP`简体中文，如需其他语言值可从[Google Doodles 官网](https://www.google.com/doodles)获取']" />
 
 ## Google 相册
 

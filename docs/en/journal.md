@@ -53,7 +53,7 @@ Google Scholar has strict anti-crawling mechanism implemented, the demo below do
 
 <RouteEn author="KellyHwong" example="/google/citations/mlmE4JMAAAAJ" path="/google/citations/:id" anticrawler="1">
 
-The parameter id in the route is the id in the URL of the user ’s Google Scholar reference page，for example `https://scholar.google.com/citations?hl=zh-CN&user=mlmE4JMAAAAJ` to `mlmE4JMAAAAJ`
+The parameter id in the route is the id in the URL of the user ’s Google Scholar reference page，for example `https://scholar.google.com/citations?hl=ja-JP&user=mlmE4JMAAAAJ` to `mlmE4JMAAAAJ`
 
 </RouteEn>
 
